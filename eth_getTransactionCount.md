@@ -6,7 +6,7 @@ To work with the API, you need to create your own endpoint in your [account dash
 |:-:|:-:|:-:|
 |**`ETHEREUM`**|**`Mainnet`** / **`Sepolia`**)|GraphQL / **`JSON-RPC`** / WebSocket|
 ___
-1.	## **Description of the method `eth_getTransactionCount`:**
+## **Description of the method `eth_getTransactionCount`:**
 
    *The **`eth_getTransactionCount`** method is used to retrieve the `nonce` value.* 
 
