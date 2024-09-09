@@ -47,9 +47,11 @@ In the case of the **`eth_getTransactionCount`** method, this indicates that the
 #### Response with status «200 OK». Error code 32602
 
 ```json
-"message": "invalid argument 0: hex string has length 38, want 40 for common.Address" /// An error occurred when entering the parameter “0xAddress”; the number of characters after “0x” is incorrect (either less than or more than 40);
-or
-"message": "invalid argument 0: json: cannot unmarshal hex string of odd length into Go value of type common.Address" /// An odd number of characters was provided for the “0xAddress” parameter.
+"message": "invalid argument 0: hex string has length 38, want 40 for common.Address"
+# An error occurred when entering the parameter “0xAddress”; the number of characters after “0x” is incorrect (either less than or more than 40)
+
+"message": "invalid argument 0: json: cannot unmarshal hex string of odd length into Go value of type common.Address"
+# An odd number of characters was provided for the “0xAddress” parameter.
 ```
 #### Response with status «200 OK». Error code 32700
 ```json
