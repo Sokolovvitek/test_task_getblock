@@ -28,7 +28,8 @@ ___
 |:-:|:-:|:-:|:-:|
 |"`Value`"|string|Indicates the blockchain state at the latest block.|`"earliest"`, `"pending"`, `"latest"` or a specific block number (e.g., `"0x10FB78"`). |
 |"`0xAddress`"|string|Ethereum address in the format 0x...|0xE73a62b0F9F93b3f992d8211d8E66E6a00D9bED1|
-|"`id`"|string|The id is an arbitrary value used to identify the request. It helps to link the request and response, especially when multiple requests are sent simultaneously.|24ae0e72-84ab-57e2-8819-09b4f6f9e911|
+
+"`id`" - The id is an arbitrary value used to identify the request. It helps to link the request and response, especially when multiple requests are sent simultaneously.
    
 
 ### Possible responses to the request:
