@@ -13,6 +13,15 @@
 ```
    Parameters: none.
 
+   Example of a response:
+   ```json
+{
+    "jsonrpc": "2.0",
+    "id": "1",
+    "result": "0x13c0d48"
+}
+```
+
    ***The response returns the block number in hexadecimal format `hex` (0x…).***
 
 ---
